@@ -23,7 +23,7 @@ struct AppCoordinatorViewModifier: ViewModifier {
 }
 
 extension View {
-    func withAppRouter(_ router: AppCoordinator) -> some View {
+    func withAppCoordinator(_ router: AppCoordinator) -> some View {
         modifier(AppCoordinatorViewModifier(coordinator: router))
     }
 }

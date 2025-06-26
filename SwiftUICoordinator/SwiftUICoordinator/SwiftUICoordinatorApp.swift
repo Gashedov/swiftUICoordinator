@@ -13,7 +13,7 @@ struct SwiftUICoordinatorApp: App {
     
     var body: some Scene {
         WindowGroup {
-            appCoordinator.rootView.withAppRouter(appCoordinator)
+            appCoordinator.rootView.withAppCoordinator(appCoordinator)
         }
     }
 }

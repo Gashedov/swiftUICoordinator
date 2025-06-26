@@ -28,7 +28,6 @@ extension AppCoordinator {
             case .main: MainView(coordinator: self)
             case .onboarding: OnboardingView(coordinator: self)
             }
-            
         }
         .environmentObject(self)
     }
