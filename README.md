@@ -41,9 +41,9 @@ coordinator.setAsRoot(.main)
 
 
 # How It Works
-•	Coordinator holds all navigation state.
-•	AppCoordinatorViewModifier integrates the state into a NavigationStack with support for sheets, full-screen covers, and modals.
-•	AppCoordinator is a subclass that knows how to build views for each CoordinationDestination.
+- Coordinator holds all navigation state.
+- AppCoordinatorViewModifier integrates the state into a NavigationStack with support for sheets, full-screen covers, and modals.
+- AppCoordinator is a subclass that knows how to build views for each CoordinationDestination.
 
 
 # Getting Started
